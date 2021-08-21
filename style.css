@@ -1,0 +1,206 @@
+
+html{
+    scroll-behavior: smooth;
+}
+/*===>>> header section start <<<===*/
+.header{
+    background-color: #0078d7;
+    height: 60px;
+}
+.header .header_logo{
+    text-align: left;
+    line-height: 60px;
+}
+.header .header_logo img{
+    height: 50px;
+}
+.header .header_menu{}
+.header .header_menu ul{
+    text-align: right;
+    margin-bottom: 0;
+    list-style: none;
+}
+.header .header_menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header .header_menu ul li a{
+    display: inline-block;
+    padding: 0 20px;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-right: 1px solid white;
+    line-height: 60px;
+    transition: .5s;
+}
+.header .header_menu ul li:nth-child(1) a{
+    border-left: 1px solid white;
+}
+.header .header_menu ul li a:hover{
+    background-color: #055ba1;
+}
+/*===>>> header section end <<<===*/
+.banner{
+    background-image: url("https://i.ibb.co/3p3WHpk/R.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+    padding: 100px 0;
+}
+.banner .banner_text{}
+.banner .banner_text h2 {
+	display: inline-block;
+	background-color: aliceblue;
+	color: #5f5f5f;
+	text-transform: capitalize;
+	font-weight: 700;
+	padding: 5px 15px;
+	border-radius: 5px;
+}
+.banner .banner_text p{
+    width: 30%;
+    padding: 7px 10px;
+    background-color: #5f5f5f;
+    margin: auto;
+    color: aliceblue;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 23px;
+    border-radius: 7px;
+}
+.banner .banner_text button{
+    border: none;
+    background-color: #0078d7;
+    padding: 7px 15px;
+    color: white;
+    border-radius: 7px;
+    text-transform: capitalize;
+}
+/*===>>> banner section end <<<===*/
+
+/*===>>>  about section start <<<===*/
+.about{
+    background-color: #ddd;
+    padding: 50px 0;
+}
+.about .about_text{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.about .about_text h2{
+    text-transform: capitalize;
+    font-weight: 600;
+    color: black;
+    font-size: 30px;
+}
+.about .about_text p{}
+/*===>>> about section end <<<===*/
+
+/*===>>> service section start <<<===*/
+.service{
+    padding: 50px 0;
+}
+.service h1{
+    text-transform: capitalize;
+    font-weight: 600;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.service .service_item{
+    border: 1px solid #ddd;
+    box-shadow: 0 0 4px black;
+    text-align: center;
+    border-radius: 3px;
+}
+.service .service_item span {
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	background-color: #0078d7;
+	border-radius: 20px 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.service .service_item span i{
+    font-size: 30px;
+    line-height: 50px;
+    color: white;
+}
+.service .service_item h3{
+    text-transform: capitalize;
+    margin-bottom: 6px;
+}
+.service .service_item p{}
+/*===>>> service section end <<<===*/
+
+/*===>>> content section start <<<===*/
+.content{
+    padding: 50px 0;
+    background-color: #ddd;
+}
+.content img{
+    height: 110px;
+    margin-bottom: 30px;
+}
+.content h3{
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.content ul{
+    list-style: none;
+    margin-left: -30px;
+}
+.content ul li{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+/*===>>> content section end <<<===*/
+
+/*===>>> contact section start <<<===*/
+.contact{
+    padding: 50px 0;
+}
+.contact h2{
+    text-transform: capitalize;
+    font-weight: 600;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/*===>>> contact sectin end <<<===*/
+
+/*===>>> footer section strat <<<===*/
+.footer{
+    padding: 10px 0;
+    background-color: #5f5f5f;
+}
+.footer .footer_text{
+    color: white;
+    text-align: left;
+    line-height: 50px;
+}
+.footer .footer_icon{
+    text-align: right;
+}
+.footer .footer_icon ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+.footer .footer_icon ul li{
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 50px;
+}
+.footer .footer_icon ul li a i{
+    color: white;
+    line-height: 10px;
+}
+/*===>>> footer section end <<<===*/
